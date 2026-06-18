@@ -1,6 +1,3 @@
-// Código do banco de dados
-
-/*
 CREATE DATABASE Umidade;
 
 USE Umidade;
@@ -33,9 +30,7 @@ CREATE TABLE Usuario_Dispositivo (
         ON UPDATE CASCADE,
 
     FOREIGN KEY (dispositivo_id) 
-        REFERENCES Dispositivo(id)
+        REFERENCES Dispositivos(id)
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
-
-*/
